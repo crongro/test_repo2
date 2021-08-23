@@ -2,7 +2,7 @@ name: "PR Merge on time v2"
 
 on:
   schedule:
-  - cron: '5 * * * 1-4'
+  - cron: '*/2 * * * 1-4'
   - cron: '0 19 * * 1-4'
   - cron: '0 03 * * 5'
 
